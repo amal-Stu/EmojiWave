@@ -57,11 +57,11 @@ Interacting with machines should be natural, inclusive, and touchless when neede
 
 ```plaintext
 EmojiWave/
-├── __pycache__/                # Compiled Python files for faster loading
-├── fast.py                     # FastAPI application for serving the model
+├── __pycache__/
+├── fast.py                     # FastAPI application server
 ├── model.py                    # Contains the model architecture
 ├── preprocess.py               # Data preprocessing functions
-├── notebooks/                  # Jupyter notebooks for experiments
+├── notebooks/                  # Jupyter notebooks
 │   ├── final_model_acc99.h5    # Final trained model with 99% accuracy
 │   ├── Baseline_Model.ipynb    # Notebook for baseline model training
 │   ├── EDA.ipynb               # Exploratory Data Analysis notebook
@@ -72,11 +72,11 @@ EmojiWave/
 │       └── best_model.jpeg      # Visualization of best model results
 ├── streamlit_app/              # Directory for Streamlit application
 │   ├── pages/                  # Subdirectory for app pages
-│   ├── EmojiWave-unscreen-1.gif # GIF for the application
+│   ├── EmojiWave-unscreen-1.gif # GIF logo
 │   └── Home.py                 # Main home page of the Streamlit app
 ├── requirements.txt            # List of project dependencies
 ├── .gitignore                  # Files and directories to be ignored by Git
-└── README.md                   # This README file
+└── README.md                   # project decumention
 ```
 
 # How to Run
