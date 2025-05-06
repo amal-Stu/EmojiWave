@@ -53,60 +53,33 @@ Interacting with machines should be natural, inclusive, and touchless when neede
 - Multi-user recognition
 - Wider gesture/emotion recognition
 
+# Project Structure
+
+EmojiWave/
+├── __pycache__/                # Compiled Python files for faster loading
+├── fast.py                     # FastAPI application for serving the model
+├── model.py                    # Contains the model architecture
+├── preprocess.py               # Data preprocessing functions
+├── notebooks/                  # Jupyter notebooks for experiments
+│   ├── final_model_acc99.h5    # Final trained model with 99% accuracy
+│   ├── Baseline_Model.ipynb    # Notebook for baseline model training
+│   ├── EDA.ipynb               # Exploratory Data Analysis notebook
+│   ├── PreProcess.ipynb        # Notebook for data preprocessing
+│   ├── Best_Model.ipynb        # Notebook for fine-tuning the best model
+│   └── plots/                  # Directory for storing plots
+│       ├── baseline_model.jpeg  # Visualization of baseline model results
+│       └── best_model.jpeg      # Visualization of best model results
+├── streamlit_app/              # Directory for Streamlit application
+│   ├── pages/                  # Subdirectory for app pages
+│   ├── EmojiWave-unscreen-1.gif # GIF for the application
+│   └── Home.py                 # Main home page of the Streamlit app
+├── requirements.txt            # List of project dependencies
+├── .gitignore                  # Files and directories to be ignored by Git
+└── README.md                   # This README file
+
 # How to Run
 1. Clone the repo
 2. Install requirements
 3. Launch Streamlit:
 ```bash
 streamlit run app.py
-
-
-
-## Project Structure
-
-EmojiWave/
-├── .gitignore
-├── README.md
-├── streamlit_app/
-│   ├── ImageApp.py
-│   ├── CameraInput.py
-│   ├── components.py
-│   └── utils.py
-├── models/
-│   └── model_cnn.h5
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   └── model_training.ipynb
-├── main.py
-├── requirements.txt
-├── Dockerfile
-└── LICENSE
-
-## Folders and Files
-
-- **.gitignore**: Files to be ignored by version control.
-- **README.md**: Information about the project.
-- **streamlit_app/**: Contains the Streamlit application.
-  - **ImageApp.py**: Main application file.
-  - **CameraInput.py**: For camera input functionality.
-  - **components.py**: Application components.
-  - **utils.py**: Helper functions.
-- **models/**: Contains the trained model.
-  - **model_cnn.h5**: Trained CNN model.
-- **data/**: Project data.
-  - **raw/**: Raw data.
-  - **processed/**: Processed data.
-- **notebooks/**: Jupyter notebooks for model training.
-  - **model_training.ipynb**: Notebook for training the model.
-- **main.py**: Entry point for the application.
-- **requirements.txt**: Project dependencies.
-- **Dockerfile**: Container setup.
-- **LICENSE**: Project license.
-
-## How to Run
-
-1. Install the dependencies using:
-   ```bash
-   pip install -r requirements.txt
