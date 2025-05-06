@@ -59,3 +59,54 @@ Interacting with machines should be natural, inclusive, and touchless when neede
 3. Launch Streamlit:
 ```bash
 streamlit run app.py
+
+
+
+## Project Structure
+
+EmojiWave/
+├── .gitignore
+├── README.md
+├── streamlit_app/
+│   ├── ImageApp.py
+│   ├── CameraInput.py
+│   ├── components.py
+│   └── utils.py
+├── models/
+│   └── model_cnn.h5
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── model_training.ipynb
+├── main.py
+├── requirements.txt
+├── Dockerfile
+└── LICENSE
+
+## Folders and Files
+
+- **.gitignore**: Files to be ignored by version control.
+- **README.md**: Information about the project.
+- **streamlit_app/**: Contains the Streamlit application.
+  - **ImageApp.py**: Main application file.
+  - **CameraInput.py**: For camera input functionality.
+  - **components.py**: Application components.
+  - **utils.py**: Helper functions.
+- **models/**: Contains the trained model.
+  - **model_cnn.h5**: Trained CNN model.
+- **data/**: Project data.
+  - **raw/**: Raw data.
+  - **processed/**: Processed data.
+- **notebooks/**: Jupyter notebooks for model training.
+  - **model_training.ipynb**: Notebook for training the model.
+- **main.py**: Entry point for the application.
+- **requirements.txt**: Project dependencies.
+- **Dockerfile**: Container setup.
+- **LICENSE**: Project license.
+
+## How to Run
+
+1. Install the dependencies using:
+   ```bash
+   pip install -r requirements.txt
