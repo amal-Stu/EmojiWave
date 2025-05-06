@@ -40,7 +40,7 @@ EmojiWave/
 │   ├── EDA.ipynb                # Exploratory Data Analysis notebook
 │   ├── Preprocess.ipynb         # Notebook for data preprocessing
 │   └── The Best Model.ipynb     # Notebook for fine-tuning the best model
-├── outputs/plots/                # Directory for storing model output
+├── outputs/plots/               # Directory for storing model output
 │       ├── baseline.jpeg        # Visualization of baseline model results
 │       └── best_model.jpeg      # Visualization of best model results
 ├── streamlit_app/               # Directory for the Streamlit app
