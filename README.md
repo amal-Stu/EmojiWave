@@ -55,6 +55,7 @@ Interacting with machines should be natural, inclusive, and touchless when neede
 
 # Project Structure
 
+```plaintext
 EmojiWave/
 ├── __pycache__/                # Compiled Python files for faster loading
 ├── fast.py                     # FastAPI application for serving the model
@@ -76,6 +77,7 @@ EmojiWave/
 ├── requirements.txt            # List of project dependencies
 ├── .gitignore                  # Files and directories to be ignored by Git
 └── README.md                   # This README file
+```
 
 # How to Run
 1. Clone the repo
