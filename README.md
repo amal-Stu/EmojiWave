@@ -1,15 +1,17 @@
 
-# EmojiWave: Transforming Hand Gestures into Emojis
+# ✋ EmojiWave: Transforming Hand Gestures into Emojis
 
 ## 📋 Project Overview
 
 **EmojiWave** is a web application that uses computer vision to detect hand gestures in real-time. It then translates these gestures into corresponding emojis using a custom-trained Convolutional Neural Network (CNN). The app leverages **Streamlit** for an interactive user experience, enabling users to either upload an image or use their webcam for real-time gesture recognition.
 
+## 🎬Live Demo
+ Experience EmojiWave in Action: (https://emojiwaveapp.streamlit.app/)
+
 ## 🚀 Key Features
 - **Real-time emoji feedback:** Detects hand gestures via webcam or uploaded images and displays corresponding emojis.
 - **Interactive experience:** Fun and personal interaction without the need for touch or voice inputs.
 - **Portable deployment:** Easily deployed via Docker for seamless use across different environments.
-- **Live Demo:** Try EmojiWave in here (https://emojiwaveapp.streamlit.app/)
 
 ## 🔧 Tech Stack
 - **Python**
@@ -25,9 +27,10 @@
 2. The system processes the image, detecting hand gestures.
 3. The recognized gesture is matched to an emoji and displayed on the screen.
 
-# Project Structure
-``` plaintext
 
+## 📂 Project Structure
+
+```
 EmojiWave/
 ├── api/                         # API files
 │   ├── fast.py                  # FastAPI application server
@@ -41,8 +44,8 @@ EmojiWave/
 │   ├── Preprocess.ipynb         # Notebook for data preprocessing
 │   └── The Best Model.ipynb     # Notebook for fine-tuning the best model
 ├── outputs/plots/               # Directory for storing model output
-│       ├── baseline.jpeg        # Visualization of baseline model results
-│       └── best_model.jpeg      # Visualization of best model results
+│    ├── baseline.jpeg           # Visualization of baseline model results
+│    └── best_model.jpeg         # Visualization of best model results
 ├── streamlit_app/               # Directory for the Streamlit app
 │   ├── .streamlit/              # Streamlit configuration
 │   │   └── config.toml          # Configuration file for Streamlit app
@@ -56,8 +59,8 @@ EmojiWave/
 ├── project_summary.txt          # Summary of the project
 ├── README.md                    # Project documentation
 └── requirements.txt             # List of project dependencies
-
 ```
+
 
 
 ## 💻 How to Run the Project Locally
