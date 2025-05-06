@@ -1,5 +1,5 @@
 
-# EmojiWave – Real-Time Hand Gesture Recognition with Emoji Feedback
+# EmojiWave: Transforming Hand Gestures into Emojis
 
 ## 📋 Project Overview
 
