@@ -69,7 +69,7 @@ To run the app on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/moalb08/EmojiWave.git
+   git clone https://github.com/amal-Stu/EmojiWave.git
    ```
 
 2. Install required dependencies:
@@ -89,7 +89,7 @@ To run the app on your local machine, follow these steps:
 
 Shoutout to my incredible team for making EmojiWave happen:
 
-- [**Noura Alzahrani**](https://github.com/Nourii-24)
+- [**Noura Alzahrani**](https://github.com/noura-alzahrani)
 - [**Norah Alharbi**](https://github.com/NourahNH)
-- [**Amal Alahmadi**](https://github.com/amal-Stu)
+- [**Mohammed Albaijan**](https://github.com/moalb08)
 - [**Yousif Alnasser**](https://github.com/ai-yousif)
